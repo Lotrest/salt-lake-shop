@@ -1,0 +1,910 @@
+{
+  "common": {
+    "app.name": "Salt Lake",
+    "ok": "OK",
+    "close": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "apply": "Apply",
+    "edit": "Edit",
+    "delete": "Delete",
+    "duplicate": "Duplicate",
+    "loading": "Loading...",
+    "search": "Search",
+    "back": "Back",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No",
+    "language.ru": "Russian",
+    "language.en": "English",
+    "language.kk": "Kazakh",
+    "theme.light": "Light theme",
+    "theme.dark": "Dark theme",
+    "theme.system": "System theme",
+    "showAll": "Show all",
+    "showLess": "Show less",
+    "noData": "No data"
+  },
+
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "E-mail",
+    "password": "Password",
+    "name": "Name",
+    "phone": "Phone",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "logout": "Logout",
+    "profile": "Profile",
+    "loginSuccess": "Welcome, {{name}}!",
+    "logoutSuccess": "You have logged out",
+    "invalidCredentials": "Invalid login or password",
+    "requiredFields": "Please fill in all required fields"
+  },
+
+  "header": {
+    "admin": "Administrator",
+    "profile": "Profile",
+    "news": "News",
+    "nav.home": "Home",
+    "nav.catalog": "Catalog",
+    "nav.logoProducts": "Logo Products",
+    "nav.news": "News",
+    "nav.about": "About Company",
+    "nav.contacts": "Contacts",
+    "nav.cart": "Cart",
+    "nav.login": "Login",
+    "nav.logout": "Logout",
+    "theme.light": "Light theme",
+    "theme.dark": "Dark theme",
+    "theme.system": "System",
+    "greeting": "Welcome to Salt Lake"
+  },
+
+  "cart": {
+  "addedToast": "✅ {{name}} added to cart!",
+  "title": "Cart",
+  "empty": "Your cart is empty",
+  "emptyDescription": "Add some products to start shopping.",
+  "subtotal": "Subtotal",
+  "total": "Total",
+  "checkout": "Checkout",
+  "clearCart": "Clear cart",
+  "clear": "Clear",
+  "qty": "Qty",
+  "remove": "Remove",
+  "addToCart": "Add to cart",
+  "items_one": "{{count}} item",
+  "items_few": "{{count}} items",
+  "items_many": "{{count}} items",
+  "backToCatalog": "Back to catalog",
+  "continueShopping": "Continue shopping"
+},
+
+  "editor": {
+    "defaultText": "Your text",
+    "prompt.textLayer": "Layer text:",
+    "layers.title": "Layers",
+    "layer.text": "TXT",
+    "layer.image": "IMG",
+    "layer.up": "Up",
+    "layer.down": "Down",
+    "layer.show": "Show",
+    "layer.hide": "Hide",
+    "layer.lock": "Lock",
+    "layer.unlock": "Unlock",
+    "layer.duplicate": "Duplicate",
+    "layer.delete": "Delete",
+    "placeholder.noLayers": "Layers will appear after adding text or image",
+    "toolbar.size": "Size",
+    "toolbar.color": "Color",
+    "toolbar.align": "Align",
+    "toolbar.align.left": "Left",
+    "toolbar.align.center": "Center",
+    "toolbar.align.right": "Right",
+    "ops.flipH": "Flip horizontally",
+    "ops.flipV": "Flip vertically",
+    "ops.alignH": "Align horizontally",
+    "ops.alignV": "Align vertically",
+    "ops.center": "Center",
+    "props.title": "Layer properties",
+    "props.select": "Select layer to edit",
+    "quality.ok": "Image quality OK",
+    "quality.warn": "Warning: image is stretched, quality may degrade",
+    "uploadLogo": "Upload logo",
+    "removeLogo": "Remove logo"
+  },
+
+  "product": {
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "characteristics": "Characteristics",
+    "package": "Package",
+    "weight": "Weight",
+    "addToCart": "Add to cart",
+    "perUnit": "per unit",
+    "noDescription": "No description",
+    "price": "Price"
+  },
+
+  "catalog": {
+    "title": "Product Catalog",
+    "description": "Professional solutions for hotels and SPA",
+    "backToCategories": "Back to categories",
+    "backToX": "Back to {{name}}",
+    "refreshBtn": "Refresh",
+    "loadError": "Error loading products",
+    "tryAgain": "Try again",
+    "searchIn": "Search in {{name}}...",
+    "view": "View",
+    "subcategoriesOf": "Subcategories of {{name}}",
+    "groupTotal": "Total in {{name}}: {{count}} {{items}}",
+    "items_one": "{{count}} item",
+    "items_few": "{{count}} items",
+    "items_many": "{{count}} items",
+    "found": "Found {{count}} products",
+    "foundIn": "Found {{count}} products in \"{{name}}\"",
+    "querySuffix": " for query \"{{q}}\"",
+    "templatesEmpty": "No templates in \"{{name}}\" subcategory yet.",
+    "templatesEmptyHint": "Add \"custom_logo\" category products in admin (robes, slippers, boxes).",
+    "notFound": "Products not found",
+    "emptyCatalog": "Catalog is empty"
+  },
+
+  "news": {
+  "title": "News",
+  "subtitle": "Latest trends, technologies and hospitality innovations",
+  "loading": "Loading news...",
+  "empty": "News will appear soon",
+  "errorLoad": "We regularly publish new materials about hospitality innovations.",
+  "tag": "Innovation",
+  "readMore": "Read more",
+  "noTitle": "No title",
+  "close": "Close",
+  "viewAll": "View all",
+  "published": "Published"
+},
+
+  "errors": {
+    "generic": "An error occurred. Please try again.",
+    "requestTimeout": "Request timeout",
+    "network": "Network error",
+    "required": "Required field",
+    "notFound": "Page not found",
+    "server": "Server error",
+    "unauthorized": "Authorization required"
+  },
+
+  "reviews": {
+    "title": "Our Customers' Reviews",
+    "subtitle": "What hotels and restaurants across Kazakhstan say about us",
+    "basedOn": "based on {{count}} reviews",
+    "leaveReview": "Leave a review",
+    "leaveReviewSubtitle": "Share your cooperation experience",
+    "loginToReview": "Log in to leave a review",
+    "loginBtn": "Log in",
+    "yourName": "Your name",
+    "rating": "Rating",
+    "reviewText": "Review text",
+    "publish": "Publish review",
+    "success": "Thank you for your review!"
+  },
+
+  "footer": {
+    "rights": "© {{year}} Salt Lake. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "developed": "Developed by Salt Lake"
+  },
+
+  "categories": {
+  "textile": {
+    "name": "Textiles",
+    "description": "Towels, bathrobes, slippers, and bed linen",
+    "sub": {
+      "towels": "Towels",
+      "slippers": "Slippers",
+      "robes": "Bathrobes",
+      "pillowcases": "Pillowcases",
+      "sheets": "Sheets",
+      "duvet_covers": "Duvet covers",
+      "mattress_covers": "Mattress covers",
+      "bedspreads": "Bedspreads",
+      "double_set": "Double set",
+      "single_set": "Single set",
+      "one_and_half_set": "One-and-a-half set",
+      "euro_set": "Euro set",
+      "pillows": "Pillows",
+      "blankets": "Blankets",
+      "plaids": "Plaids"
+    }
+  },
+  "accessories": {
+  "name": "Accessories",
+  "description": "Tooth kits, razors, combs, and more",
+  "sub": {
+    "standard": "STANDARD COLLECTION",
+    "eco": "ECO sets",
+    "shoes": "Shoe accessories",
+    "razor": "Shaving kits",
+    "cosmetic": "Cosmetic kits",
+    "tooth": "Tooth kits",
+    "lumiere_business": "Lumiere — Business series",
+    "lumiere_standard": "Lumiere — Standard series",
+    "lumiere_econom": "Lumiere — Economy series"
+  }
+},
+  "cosmetics": {
+    "name": "Cosmetics",
+    "description": "Shampoos, shower gels, lotions, and more",
+    "groups": {
+      "greenery": "Greenery",
+      "comfort": "Comfort Line",
+      "aroma": "Aroma Garden",
+      "lumiere": "Lumiere",
+      "allegrini": "Allegrini",
+      "ada": "ADA Cosmetics",
+      "mezo": "Mezo"
+    },
+    "items": {
+      "shampoo": "Shampoo",
+      "showerGel": "Shower gel",
+      "lotion": "Lotion",
+      "conditioner": "Conditioner",
+
+      
+
+
+
+      "allegrini_one_for_you": "Allegrini — One For You",
+      "allegrini_bamboo": "Allegrini — Bamboo",
+      "allegrini_aloesir": "Allegrini — Aloesir",
+      "allegrini_acqua": "Allegrini — Acqua Di Colonia",
+      "allegrini_havana": "Allegrini — Havana",
+      "allegrini_natura_siberica": "Allegrini — Natura Siberica",
+      "allegrini_argan": "Allegrini — Argan",
+      "allegrini_kid_set": "Allegrini — Kids series",
+      "allegrini_b_natural": "Allegrini — B Natural (Ecolabel)",
+      "allegrini_valentin_yudashkin": "Allegrini — Valentin Yudashkin",
+      "allegrini_natural_lab": "Allegrini — Natural LAB",
+      "allegrini_hemp_care": "Allegrini — Hemp Care",
+      "allegrini_skinus": "Allegrini — Skinius",
+      "allegrini_pikenz": "Allegrini — Pikenz",
+      "allegrini_accessories": "Allegrini — Accessories",
+      "allegrini_kanistra5": "Allegrini — 5L Cosmetics",
+
+      "ada_lifestyle": "ADA — Lifestyle Brands",
+      "ada_luxury": "ADA — Luxury Brands",
+      "ada_300ml": "ADA — 300ml Cosmetics",
+
+      "mezo_hotel_collection": "Mezo — HOTEL COLLECTION LIGHT",
+      "mezo_all_for_you": "Mezo — ALL FOR YOU",
+      "mezo_no_name": "Mezo — NO NAME",
+      "mezo_lucio": "Mezo — LUCIO",
+      "mezo_argana": "Mezo — ARGANA",
+      "mezo_amber_wood": "Mezo — LUCIO AMBER WOOD",
+      "mezo_lavender": "Mezo — LAVENDER",
+      "mezo_rumah": "Mezo — RUMAH",
+      "mezo_marrone": "Mezo — Marrone",
+      "mezo_basic": "Mezo — Basic",
+      "mezo_kids": "Mezo — Kids series",
+      "mezo_canisters5": "Mezo — 5L Canisters",
+      "mezo_additional": "Mezo — Additional assortment",
+      "mezo_wall_cosmetics": "Mezo — Wall dispenser cosmetics"
+    }
+  },
+  "minibars": {
+    "name": "Minibars",
+    "description": "Hotel and home refrigerators"
+  },
+  "custom_logo": {
+    "name": "Custom logo products",
+    "description": "Bathrobes, slippers, and boxes with your logo",
+    "sub": {
+      "robes": "Bathrobes",
+      "slippers": "Slippers",
+      "boxes": "Boxes"
+    }
+  }
+},
+
+  "hero": {
+    "tagline": "Over 10 years in Kazakhstan",
+    "slide": "Slide",
+    "saltlake": {
+      "subtitle": "Professional solutions for hotels and businesses",
+      "cta": "Start shopping"
+    },
+    "standard": {
+      "subtitle": "Disposable toothbrushes, razors, shower caps",
+      "cta": "View collection"
+    }
+  },
+
+  "about": {
+  "title": "About the Company",
+  "subtitle": "Professional solutions for hotels, restaurants, and businesses in Kazakhstan and Kyrgyzstan",
+  "features": {
+    "reliability": {
+      "title": "Reliability",
+      "desc": "Over 10 years on the hospitality supply market"
+    },
+    "delivery": {
+      "title": "Delivery",
+      "desc": "Fast delivery across Kazakhstan and Kyrgyzstan within 2–3 days"
+    },
+    "clients": {
+      "title": "Clients",
+      "desc": "More than 100 satisfied clients throughout the country and beyond"
+    },
+    "quality": {
+      "title": "Quality",
+      "desc": "All products meet international quality standards"
+    }
+  },
+  "stats": {
+    "years": "Years on the market",
+    "clients": "Clients",
+    "products": "Products",
+    "support": "Support"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "We are shaping the culture of hospitality in Central Asia by providing hotels, spas, and resorts with high-quality products that combine comfort, style, and sustainability.\nSalt Lake is not just a supplier — it is a trusted partner helping to create an atmosphere of warmth and care for every guest.\n\nOur goal is to make hotel service modern, convenient, and accessible, maintaining international standards and an individual approach to every client.\nExpanding across the region, we strive to make the name Salt Lake a symbol of trust, innovation, and excellence in the hospitality industry."
+  },
+  "values": {
+    "title": "Our Values",
+    "quality": {
+      "title": "Quality",
+      "text": "All products undergo strict quality control and comply with international standards."
+    },
+    "reliability": {
+      "title": "Reliability",
+      "text": "We guarantee our commitments and the timely delivery of every order."
+    },
+    "support": {
+      "title": "Support",
+      "text": "24/7 customer support and professional consultation."
+    },
+    "development": {
+      "title": "Development",
+      "text": "Continuous expansion of our assortment, improvement of services, and growth of our branch network. The opening of the Kyrgyzstan branch marked an important step in strengthening Salt Lake’s presence across Central Asia."
+    }
+  }
+},
+
+  "checkout": {
+    "defaultCity": "Almaty",
+    "loading": "Loading page...",
+    "loginRequired": "To place an order, you need to log in.",
+    "orderError": "Failed to place order. Please try again later.",
+    "orderComplete": "Order successfully placed!",
+    "orderNumber": "Order number:",
+    "successMessage": "successfully created.",
+    "thankYouMessage": "Thank you for your order! We will contact you to confirm details.",
+    "nextSteps": "Next steps:",
+    "contactYou": "Our manager will contact you shortly.",
+    "confirmDetails": "Will clarify delivery and payment details.",
+    "deliveryTime": "Delivery across Kazakhstan takes 2-3 days.",
+    "paymentTerms": "Payment upon receipt or by invoice.",
+    "continueShopping": "Continue shopping",
+    "goHome": "Go to home",
+    "addProductsToCart": "Add products to cart to place an order.",
+    "title": "Checkout",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter phone number",
+    "company": "Company (optional)",
+    "companyPlaceholder": "Company name",
+    "city": "City",
+    "address": "Address",
+    "addressPlaceholder": "Street, house, apartment",
+    "paymentMethod": "Payment method",
+    "cash": "Cash",
+    "card": "Card",
+    "notes": "Order comment",
+    "notesPlaceholder": "Additional delivery information...",
+    "processing": "Processing...",
+    "placeOrder": "Place order",
+    "orderDetails": "Order contents",
+    "paymentConditions": "Payment terms",
+    "postPayment": "Payment after manager confirmation",
+    "delivery": "Delivery across Kazakhstan",
+    "pricesIncludeVAT": "Prices include VAT"
+  },
+
+  "contacts": {
+  "title": "Contacts",
+  "subtitle": "Get in touch with us in any convenient way — we are always available",
+  "contactInfo": "Contact Information",
+
+  "address": "Address",
+  "addressValue": "Almaty, Kazakhstan",
+  "addressDescription": "Head office and main warehouse. We deliver across Kazakhstan and Central Asia.",
+
+  "branchAddress": "Branch in Kyrgyzstan",
+  "branchAddressValue": "Bishkek, Kyrgyzstan",
+  "branchAddressDescription": "Official Salt Lake representative office in Bishkek. Delivery and customer support throughout Kyrgyzstan.",
+
+  "phone": "Phone",
+  "phoneDescription": "Call us for consultation or order details",
+  "branchPhone": "Phone (Kyrgyzstan)",
+  "branchPhoneNumber": "+996 (707) 123-456",
+  "branchPhoneDescription": "Contact our Bishkek branch for consultation or order placement.",
+
+  "email": "Email",
+  "emailDescription": "Send your inquiry — we will respond within one business day",
+
+  "workingHours": "Working Hours",
+  "weekdays": "Mon–Fri: 09:00–18:00",
+  "weekend": "Sat–Sun: Closed",
+
+  "quickContact": "Quick Contact",
+  "whatsappDescription": "Message us on WhatsApp — our manager will reply within a few minutes",
+  "whatsappButton": "Message on WhatsApp",
+  "whatsappMessage": "Hello! I would like to get more information about Salt Lake products.",
+
+  "telegramTitle": "Telegram",
+  "telegramDescription": "Message us on Telegram — our manager will reply within a few minutes.",
+  "telegramButton": "Message on Telegram"
+},
+
+
+  "logoLanding": {
+    "hero": {
+      "title": "Salt Lake Logo Products",
+      "subtitle": "Develop custom designs for robes, slippers, boxes and accessories with your brand logo. Everything in one place - simple, fast and professional.",
+      "button": "Create your logo"
+    },
+    "process": {
+      "title": "Steps for creating branded products",
+      "step1": {
+        "title": "1. Design",
+        "text": "Create your layout right on the website - add logo, choose color, font and packaging style."
+      },
+      "step2": {
+        "title": "2. Production",
+        "text": "After layout approval, we manufacture products under your brand. Minimum order - from 3000 pieces."
+      },
+      "step3": {
+        "title": "3. Delivery",
+        "text": "Delivery throughout Kazakhstan and CIS countries. Packaged, labeled and ready to use."
+      }
+    },
+    "cases": {
+      "title": "Our Projects",
+      "subtitle": "We produce branded sets for leading hotels and companies in Kazakhstan.",
+      "description": "Custom packaging and branded design",
+      "project1": "Project 1",
+      "project2": "Project 2",
+      "project3": "Project 3"
+    }
+  },
+
+  "home": {
+  "loading": "Loading...",
+  "whyChoose": "Why Choose Salt Lake",
+  "whyDescription": "We create high-quality hotel supplies with a personal approach and fast delivery across Kazakhstan and Central Asia.",
+  "fastDelivery": "Fast Delivery",
+  "fastDeliveryDesc": "Our own logistics and warehouse ensure on-time delivery for every order.",
+  "qualityGuarantee": "Quality Guarantee",
+  "qualityGuaranteeDesc": "We work only with trusted manufacturers and certified materials.",
+  "support": "Customer Support",
+  "supportDesc": "We help with product selection, design, and order details — 7 days a week.",
+
+  "contactUsTitle": "Contact Us",
+  "contactUsSubtitle": "We have branches in Kazakhstan and Kyrgyzstan — always ready to cooperate and stay in touch.",
+  "kazakhstanTitle": "Kazakhstan 🇰🇿",
+  "kazakhstanPhone": "+7 775 701 6266",
+  "kazakhstanDesc": "Main Salt Lake office and warehouse in Almaty. Supplying hotels throughout Kazakhstan.",
+  "kyrgyzstanTitle": "Kyrgyzstan 🇰🇬",
+  "kyrgyzstanPhone": "+996 707 123 456",
+  "kyrgyzstanDesc": "Branch in Bishkek. Providing products and service across Kyrgyzstan.",
+  "callNow": "Call Now",
+
+  "reviewsTitle": "Customer Reviews",
+  "reviewsSubtitle": "What hotels and restaurants across Kazakhstan and Central Asia say about us.",
+  "basedOnReviews": "based on {{count}} reviews",
+  "leaveReview": "Leave Your Review",
+  "shareExperience": "Share your experience of working with us",
+  "loginToReview": "Log in to leave a review",
+  "login": "Log In",
+  "yourName": "Your Name",
+  "namePlaceholder": "How should we address you?",
+  "rating": "Rating",
+  "reviewText": "Review Text",
+  "reviewPlaceholder": "Share your impressions...",
+  "publishReview": "Publish Review"
+},
+
+  "logoEditor": {
+    "title": "Logo Product Editor",
+    "defaultText": "Your text",
+    "productType": "Product type",
+    "boxColor": "Packaging color",
+    "bgTolerance": "Tolerance",
+    "removeBg": "Remove background",
+    "restoreOriginal": "Restore original",
+    "promptPlaceholder": "Enter a description (eco hotel logo)",
+    "generating": "Generating...",
+    "aiLogo": "AI Logo",
+    "addText": "Add text",
+    "addImage": "Add image",
+    "delete": "Delete",
+    "download": "Download PNG",
+    "toCart": "Add to cart",
+    "cartDesign": "logo design",
+
+    "productTypes": {
+      "toothBoxes": "Tooth boxes",
+      "shoeSponge": "Shoe sponge",
+      "cosmeticKit": "Cosmetic kit",
+      "comb": "Comb",
+      "showerCap": "Shower cap",
+      "sewingKit": "Sewing kit",
+      "shavingKit": "Shaving kit",
+      "slippers": "Slippers",
+      "robes": "Robes"
+    },
+
+    "success": {
+      "addedToCart": "✅ Design saved and added to cart successfully!"
+    },
+    "errors": {
+      "saveFailed": "Failed to save design",
+      "renderFailed": "Render error",
+      "aiFailed": "AI image generation failed",
+      "bgRemoveFailed": "Failed to remove background"
+    },
+    "alerts": {
+      "enterPrompt": "Please enter a description to generate a logo",
+      "selectImage": "Please select an image on the canvas",
+      "readError": "Could not read image"
+    }
+  },
+
+  "profile": {
+    "title": "Profile",
+    "manageYourAccount": "Manage your account and orders",
+    "loadingProfile": "Loading profile...",
+    "accessDenied": "Access denied",
+    "loginToView": "Log in to view your profile",
+    "personalData": "Personal data",
+    "role": "Role",
+    "orderHistory": "Order history",
+    "orders": "orders",
+    "loadingOrders": "Loading orders...",
+    "noOrders": "You don't have any orders yet",
+    "noOrdersDescription": "You can start shopping right now!",
+    "orderNumber": "Order #",
+    "orderItems": "Order items",
+    "repeatOrder": "Repeat order",
+    "pcs": "pcs",
+    "processing": "processing"
+  },
+
+  "stats": {
+    "users": "Users",
+    "orders": "Orders",
+    "products": "Products",
+    "revenue": "Total revenue",
+    "ordersCount": "Total orders",
+    "soldItems": "Items sold",
+    "totalRevenue": "Total revenue"
+  },
+
+  "tabs": {
+    "products": "Products",
+    "designs": "Ready designs",
+    "orders": "Orders",
+    "users": "Users",
+    "statistics": "Statistics"
+  },
+
+  "designs": {
+    "title": "Ready designs",
+    "empty": "No saved designs yet 😔",
+    "refresh": "Refresh",
+    "view": "View",
+    "download": "Download",
+    "delete": "Delete"
+  },
+
+  "orders": {
+    "title": "Orders",
+    "noOrders": "No orders",
+    "items": "Order contents",
+    "amount": "Amount",
+    "customer": "Customer"
+  },
+
+  "users": {
+    "title": "Users",
+    "roleAdmin": "Administrator",
+    "roleUser": "User",
+    "since": "Registration date"
+  },
+
+  "notifications": {
+    "successAdd": "✅ Product successfully added!",
+    "successUpdate": "✅ Product successfully updated!",
+    "successDelete": "✅ Product deleted!",
+    "errorAdd": "❌ Error adding product",
+    "errorUpdate": "❌ Error updating product",
+    "errorDelete": "❌ Error deleting product",
+    "loadError": "❌ Error loading data"
+  },
+
+  "statistics": {
+    "title": "Sales statistics by products",
+    "noData": "No data for statistics. Make first orders.",
+    "table": {
+      "product": "Product",
+      "quantity": "Quantity",
+      "revenue": "Revenue",
+      "share": "Share"
+    }
+  },
+
+  "productForm": {
+    "namePlaceholder": "Enter product name",
+    "pricePlaceholder": "Enter price",
+    "brandPlaceholder": "Enter brand (if any)",
+    "descriptionPlaceholder": "Product description",
+    "categoryPlaceholder": "Select category",
+    "subcategoryPlaceholder": "Select subcategory"
+  },
+
+  "imageManager": {
+    "title": "Product images",
+    "placeholder": "Image URL or drag file",
+    "addButton": "Add image",
+    "helpText": "Add at least one photo for product to appear in catalog"
+  },
+
+  "admin": {
+    "title": "Admin Panel",
+    "welcome": "Welcome, {{name}}",
+    "refresh": "Refresh",
+    "logout": "Logout",
+    "loading": "Loading data...",
+
+     "notifications": {
+    "successAdd": "Product added successfully",
+    "addError": "Error adding product",
+    "successUpdate": "Changes saved successfully",
+    "updateError": "Error updating product",
+    "successDelete": "Product deleted successfully",
+    "deleteError": "Error deleting product",
+    "unknownError": "Unknown error",
+    "parseError": "Error processing server response",
+    "loadError": "Error loading data"
+  },
+
+    "tabs": {
+      "products": "Products",
+      "designs": "Designs",
+      "orders": "Orders",
+      "users": "Users",
+      "statistics": "Statistics"
+    },
+
+    "stats": {
+      "users": "Users",
+      "orders": "Orders",
+      "products": "Products",
+      "revenue": "Revenue"
+    },
+
+    "search": {
+      "placeholder": "Search by name or description..."
+    },
+
+    "categories": {
+  "all": "All categories",
+  "allSubcategories": "All subcategories",
+
+  "textile": "Textiles",
+  "accessories": "Accessories",
+  "cosmetics": "Cosmetics",
+  "minibars": "Minibars",
+  "custom_logo": "Custom logo products",
+
+  "subcategories": {
+    "towels": "Towels",
+    "slippers": "Slippers",
+    "robes": "Bathrobes",
+    "standard": "STANDARD COLLECTION",
+    "eco": "ECO sets",
+    "shoes": "Shoe accessories",
+    "razor": "Shaving kits",
+    "cosmetic": "Cosmetic kits",
+    "tooth": "Tooth kits",
+    "logo_robes": "Bathrobes with logo",
+    "logo_slippers": "Slippers with logo",
+    "boxes": "Logo boxes",
+    "minibars": "Minibars",
+
+    "shampoo_greenery": "Shampoo Greenery",
+    "showerGel_greenery": "Shower Gel Greenery",
+    "lotion_greenery": "Lotion Greenery",
+    "conditioner_greenery": "Conditioner Greenery",
+
+    "shampoo_comfort": "Shampoo Comfort Line",
+    "showerGel_comfort": "Shower Gel Comfort Line",
+    "lotion_comfort": "Lotion Comfort Line",
+    "conditioner_comfort": "Conditioner Comfort Line",
+
+    "shampoo_aroma": "Shampoo Aroma Garden",
+    "showerGel_aroma": "Shower Gel Aroma Garden",
+    "lotion_aroma": "Lotion Aroma Garden",
+    "conditioner_aroma": "Conditioner Aroma Garden",
+
+    "pillowcases": "Pillowcases",
+    "sheets": "Sheets",
+    "duvet_covers": "Duvet covers",
+    "mattress_covers": "Mattress covers",
+    "bedspreads": "Bedspreads",
+    "double_set": "Double set",
+    "single_set": "Single set",
+    "one_and_half_set": "One-and-a-half set",
+    "euro_set": "Euro set",
+    "pillows": "Pillows",
+    "blankets": "Blankets",
+    "plaids": "Plaids",
+
+    "lumiere_business": "Lumiere — Business series",
+    "lumiere_standard": "Lumiere — Standard series",
+    "lumiere_econom": "Lumiere — Economy series",
+
+    "allegrini_one_for_you": "Allegrini — One For You",
+    "allegrini_bamboo": "Allegrini — Bamboo",
+    "allegrini_aloesir": "Allegrini — Aloesir",
+    "allegrini_acqua": "Allegrini — Acqua Di Colonia",
+    "allegrini_havana": "Allegrini — Havana",
+    "allegrini_natura_siberica": "Allegrini — Natura Siberica",
+    "allegrini_argan": "Allegrini — Argan",
+    "allegrini_kid_set": "Allegrini — Kids series",
+    "allegrini_b_natural": "Allegrini — B Natural (Ecolabel)",
+    "allegrini_valentin_yudashkin": "Allegrini — Valentin Yudashkin",
+    "allegrini_natural_lab": "Allegrini — Natural LAB",
+    "allegrini_hemp_care": "Allegrini — Hemp Care",
+    "allegrini_skinus": "Allegrini — Skinius",
+    "allegrini_pikenz": "Allegrini — Pikenz",
+    "allegrini_accessories": "Allegrini — Accessories",
+    "allegrini_kanistra5": "Allegrini — 5L Cosmetics",
+
+    "ada_lifestyle": "ADA — Lifestyle Brands",
+    "ada_luxury": "ADA — Luxury Brands",
+    "ada_300ml": "ADA — 300ml Cosmetics",
+
+    "mezo_hotel_collection": "Mezo — HOTEL COLLECTION LIGHT",
+    "mezo_all_for_you": "Mezo — ALL FOR YOU",
+    "mezo_no_name": "Mezo — NO NAME",
+    "mezo_lucio": "Mezo — LUCIO",
+    "mezo_argana": "Mezo — ARGANA",
+    "mezo_amber_wood": "Mezo — LUCIO AMBER WOOD",
+    "mezo_lavender": "Mezo — LAVENDER",
+    "mezo_rumah": "Mezo — RUMAH",
+    "mezo_marrone": "Mezo — Marrone",
+    "mezo_basic": "Mezo — Basic",
+    "mezo_kids": "Mezo — Kids series",
+    "mezo_canisters5": "Mezo — 5L Canisters",
+    "mezo_additional": "Mezo — Additional assortment",
+    "mezo_wall_cosmetics": "Mezo — Wall dispenser cosmetics"
+  }
+},
+
+    "filters": {
+    "title": "Filters",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "clear": "Reset filters",
+    "clearAll": "Reset all filters",
+    "allSubcategories": "All subcategories",
+    "showing": "Showing {{count}} of {{total}} products"
+  },
+
+    "imageManager": {
+    "title": "Product images",
+    "placeholder": "Enter image URL or drag file here",
+    "addButton": "Add image",
+    "helpText": "Add at least one image for the product to appear in the catalog",
+    "noImage": "No image",
+    "error": "Image load error",
+    "errors": {
+      "emptyUrl": "Enter an image link",
+      "invalidUrl": "Invalid image link"
+    }
+  },
+
+    "products": {
+      "title": "Products",
+      "imagesCount": "Images: {{count}}"
+    },
+
+    "productForm": {
+      "addTitle": "Add new product",
+      "editTitle": "Edit product",
+      "name": "Product name",
+      "namePlaceholder": "Enter product name",
+      "price": "Price",
+      "pricePlaceholder": "Enter price",
+      "category": "Category",
+      "categoryPlaceholder": "Select category",
+      "subcategory": "Subcategory",
+      "subcategoryPlaceholder": "Select subcategory",
+      "brand": "Brand",
+      "brandPlaceholder": "Enter brand (if any)",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter product description",
+      "images": "Product images",
+      "minOrder": "Minimum order (pcs)",
+      "addButton": "Add product",
+      "saveButton": "Save changes",
+      "cancelButton": "Cancel"
+    },
+
+    "designs": {
+      "title": "Designs",
+      "noName": "No name",
+      "view": "View",
+      "download": "Download",
+      "delete": "Delete"
+    },
+
+    "users": {
+      "title": "Users",
+      "roleAdmin": "Administrator",
+      "roleUser": "User"
+    },
+
+    "statistics": {
+      "title": "Statistics",
+      "totalOrders": "Total orders",
+      "itemsSold": "Items sold",
+      "totalRevenue": "Total revenue",
+      "table": {
+        "product": "Product",
+        "quantity": "Quantity",
+        "pcs": "pcs",
+        "revenue": "Revenue",
+        "share": "Share"
+      }
+    }
+  },
+
+  "news1": {
+    "title": "News",
+    "subtitle": "Current trends, technologies and innovations in hotel business",
+    "loading": "Loading news...",
+    "empty": "News coming soon",
+    "errorLoad": "We regularly publish fresh materials about innovations in hotel industry.",
+    "tag": "Innovations",
+    "readMore": "Read more",
+    "noTitle": "No title",
+    "close": "Close",
+    "published": "Published"
+  },
+  "chat": {
+  "greeting": "Hello! 👋 I'm the Salt Lake assistant. I can help you choose products, explain logo customization, and place your order.",
+  "title": "Salt Lake — online consultant",
+  "status": "available 24/7",
+  "placeholder": "Type your question…",
+  "send": "Send",
+  "open": "Open chat",
+  "close": "Close chat",
+  "error": {
+    "general": "Sorry, I can’t reply right now.",
+    "network": "An error occurred. Please try again or contact us."
+  },
+  "quick": {
+    "stars5": "Select amenities for 5★ rooms",
+    "logo": "Make custom logo slippers/sets",
+    "delivery": "What are delivery times in Kazakhstan?",
+    "eco": "What eco sets do you have?"
+  }
+}
+}
